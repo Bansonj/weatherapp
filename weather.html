@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Weather API</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+  <body>
+
+    <div class="container">
+          <!-- Jumbotron -->
+        <div class="jumbotron text-center mdb-color lighten-2 white-text mx-2 mb-5">
+
+        <!-- Title -->
+        <h2 class="card-title h2">Get Current Weather</h2>
+
+        </div>
+
+        <div class="row">
+
+            <div class="mx-xl-6 col-md-6 mx-auto">
+
+                <h2 class="text-center text-mdb-color">Enter City Name</h2>
+                <!-- Error -->
+                <span id="error"></span>
+                <div class="text-center py-2 mt-3 form-group form-inline">
+                    <input class="form-control mr-sm-2" type="text" name="city" id="city" placeholder="City Name" aria-label="Search">
+                    <button class="btn btn-mdb-color btn-rounded btn-md my-0" id="submitWeather" type="submit">Search City</button>
+                </div>
+
+                <div id="show"></div><!-- End of Show -->
+
+            </div>
+
+        </div>
+
+        <div class="footer text-center mdb-color lighten-2 white-text mx-2 mb-5">
+            <div class="container text-center">
+                <p class="text-center">Copyright &copy; 2019 Current Weather App</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>

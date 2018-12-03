@@ -1,0 +1,10 @@
+#submitWeather{
+    font-weight: bold;
+}
+footer p{
+    width: 100%;
+    text-align: center;
+}
+.mx-xl-6{
+    height: 600px;
+}
